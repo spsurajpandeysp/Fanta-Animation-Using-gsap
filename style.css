@@ -1,0 +1,189 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 10vh;
+    padding:0vw 10vw;
+    z-index: 99;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+nav a, i{
+    font-size: 2vw;
+    color:#fff;
+    text-decoration: none;
+}
+.cntr-nav{
+    display: flex;
+    gap:3vw;
+}
+nav i{
+    font-size: 1vw;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background: linear-gradient(120deg ,rgb(255, 132, 0), rgba(255, 81, 0, 0.989),orangered);
+}
+#fanta{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    position: absolute;
+    z-index: 2;
+    width: 15%;
+}
+#orange-cut{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    z-index: 1;
+    position:absolute;
+    top:14%;
+    left: 37%;
+    width: 15%;
+}
+#orange{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    left:49%;
+    top:52%;
+    z-index: 3;
+    position: absolute;
+    width: 24%;
+}
+.one h1{
+    font-size: 21vw;
+    color: white;
+}
+
+#leaf{
+    top:5%;
+    left: 79%;
+    rotate: 260deg;
+    width: 25%;
+    position: absolute;
+    transition: all cubic-bezier(0.19,0.22,0.99);
+}
+#leaf2{
+    top:60%;
+    rotate: 90deg;
+    left:75%;
+    width:20%;
+    position: absolute;
+    transition: all cubic-bezier(0.19,0.22,0.99);
+}
+#leaf3{
+    rotate: 97deg;
+    left:9%;
+    top:26%;
+    width: 15%;
+    position: absolute;
+    transition: all cubic-bezier(0.19,0.22,0.99);
+}
+.left-two,.right-two{
+    gap:5vh;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.two{
+    display: flex;
+    background-color: rgb(77, 6, 6);;
+    width: 100%;
+    height: 100vh;
+}
+.left-two svg{
+    margin-top: 5vh;
+    width: 90%;
+    transform:rotate(50deg);
+}
+.right-two h1{
+    color:#fff;
+    font-size: 5vw;
+}
+
+.right-two p{
+    font-size: 1vw;
+    color: #fff;
+    width: 89%;
+}
+.three{
+    
+    gap:5dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg,rgb(255, 132, 0), rgba(255, 81, 0, 0.989),orangered);
+}
+.card{
+    position: relative;
+    gap:3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+    width: 24vw;
+    height: 65vh;
+    background-color: white;
+}
+.card button{
+    position: relative;
+    bottom: -30%;
+    color:#fff;
+    padding: 1vw 2vw;
+    border: none;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: rgba(255, 140, 0, 0.825);
+}
+#cocacola{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    top:-10%;
+    position: absolute;
+    width: 60%;
+}
+#pepsi{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    top: -10%;
+    position: absolute;
+    width: 110%;
+}
+#lemon1{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    position: absolute;
+    top:-16%;
+    width:21vw;
+}
+#lemon2{
+    transition: all cubic-bezier(0.19,0.22,0.99);
+    position: absolute;
+    width:21vw;
+    top:-16%;
+}
+.card h1{
+    position: relative;
+    bottom: -28%;
+}
+
